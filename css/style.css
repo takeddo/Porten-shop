@@ -1,0 +1,542 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header a, .head a {
+    transition: opacity 0.2s ease-in;
+}
+
+.container {
+    background-color:  #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #969696;
+    display: flex;
+}
+
+.phone {
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.phone > * {
+    margin-right: 20px;
+}
+
+.phone a{
+    text-decoration: none;
+    color: #969696;
+}
+
+.autorization {
+    margin-left: auto;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autorization > * {
+    margin-right: 20px;
+}
+
+.autorization a {
+    text-decoration: none;
+    color: #969696;
+}
+
+.header a:hover, .head a:hover {
+    opacity: 0.8;
+}
+
+/* Article HEAD */
+
+.head {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+    margin: 0;
+    margin-right: auto;
+    margin-left: 300px;
+}
+
+.nav {
+    margin-right: 100px;
+}
+
+.nav > * {
+    margin-right: 40px;
+}
+
+.nav a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+    text-decoration: none;
+}
+
+.icons {
+    margin-right: 150px;
+}
+
+.icons > * {
+    margin-right: 40px;
+}
+
+/* MAIN */
+
+.main {
+    background: url(./../image/main/backgroung.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    width: 320px;	height: 320px; /* Размеры */
+    border: 4px solid #fff; /* Белая рамка */
+    border-radius: 1px; /* Радиус скругления */
+    margin-top: 150px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-header h1 {
+    margin-bottom: 0;
+    border-bottom: 2px solid white;
+}
+
+.main-header h2 {
+    font-size: 28px;    
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.description {
+    margin-top: 150px;
+    max-width: 750px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Section season 2021 \ new collection */
+
+section {
+    background-color: black;
+}
+
+.container-2020 {
+    display: flex;
+    flex-direction: row;
+}
+
+.season {
+    margin-right: 900px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+.products-wrapper {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 50px;
+}
+
+.product-link {
+    display: inline-block;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in;
+    color: #fff;
+}
+
+.product-link:hover {
+    opacity: 0.8;
+}
+
+.new-collection {
+    margin-top: -238px;
+    padding-top: 370px;
+    margin-left: auto !important;
+    position: relative;
+    text-align: center;
+    width: 880px;
+    height: 730px;
+
+    background: url(./../image/section-season2021/collection-img.jpg);
+}
+
+.new-collection h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button__catalog {
+    width: 138px;
+    height: 47px;
+    border: 1px solid #FFFFFF;
+    background-color: Transparent;
+
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in;
+}
+
+.button__catalog:hover, .button__description:hover, .button-clocks:hover, .button-braclets:hover, .button-belts:hover, .subscribe:hover {
+    background-color: #fff;
+    color: #0f0f0f;
+}
+
+/* Collection 2018 */
+
+.container-2018 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    row-gap: 50px;
+    margin-right: 280px;
+}
+
+.description-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.description-text p {
+    max-width: 470px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.button__description {
+    width: 311px;
+    height: 47px;
+    border: 1px solid #FFFFFF;
+    background-color: Transparent;
+
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in;
+}
+/* Section ADMISSION */
+
+.new-admission {
+    display: flex;
+}
+
+.admission-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1450px;
+}
+
+.admission {
+    margin: 80px 0;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Section Brands*/
+
+.brands {
+    background-color: #0F0F0F;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-1 h1 {
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 40px 0 80px 0px;
+
+    font-family: 'Playfair Display', serif;
+    border-bottom: 2px solid white;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.logotypes {
+    padding-bottom: 80px;
+}
+
+/* Footer about shop */
+
+.shop-footer {
+    background: url(./../image/footer/background-footer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-footer {
+   padding-top: 50px;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+.about-shop {
+    max-width: 350px;
+    padding-right: 35px;
+}
+
+.about-shop h1 {
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+.about-shop p {
+    margin-bottom: 101px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;    
+}
+
+.categories {
+    max-width: 295px;
+    margin-top: -245px;
+    margin-right: 35px;
+}
+
+.categories h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 32px;   
+    text-transform: uppercase;  
+    color: #FFFFFF;    
+}
+
+.footer-buttons {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.button-clocks {
+    width: 70px;
+    height: 41px;
+    border: 1px solid #0F0F0F;
+    background-color: #0F0F0F;
+
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    transition: all 0.2s ease-in;
+}
+
+.button-braclets {
+    width: 98px;
+    height: 41px;
+    border: 1px solid #0F0F0F;
+    background-color: #0F0F0F;
+
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    transition: all 0.2s ease-in;
+}
+
+.button-belts {
+    width: 79px;
+    height: 41px;
+    border: 1px solid #0F0F0F;
+    background-color: #0F0F0F;
+
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    transition: all 0.2s ease-in;
+}
+
+.link-form {
+    max-width: 390px;
+    margin-top: -190px;
+}
+
+.link-form h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 32px;   
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+.link-form p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;    
+}
+
+.link-form input {
+    width: 210px;
+    height: 42px;
+    color: rgb(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.subscribe {
+    width: 138px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    background-color: Transparent;
+
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in;
+}
+
+/* Footer copyright */
+
+.copyright {
+    background-color: #0F0F0F;
+}
+
+.copy-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #b4b4b4;    
+}
+
+.rights {
+    margin: 0 0 0 430px;  
+}
+
+.workby {
+    margin: 0;
+    margin: 0 465px 0 0;  
+}
