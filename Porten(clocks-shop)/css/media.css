@@ -1,0 +1,179 @@
+@media (max-width: 1700px) {
+    .new-collection {
+        background: none;
+        margin-left: 0 !important;
+    }
+
+    .container-2020 {
+        flex-direction: column-reverse;
+    }
+
+    .container-2018 img {
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .container-2018 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description-text {
+        margin-right: 0;
+    }
+
+    .subscribe {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    header {
+        display: none;
+    }
+
+    .head {
+        text-align: center;
+        height: 50px;
+        flex-direction: column;
+    }
+
+    .nav a {
+        text-align: center;
+        /* flex-direction: column-reverse;
+        margin-right: 0; */
+    }
+
+    .logo {
+        font-size: 34px;
+        margin-left: auto;
+    }
+
+    .description {
+        max-width: 420px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .icons, .nav {
+        display: none;
+    }
+
+    .season {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    .copy-container {
+        flex-direction: column;
+        justify-content: center;
+        height: 65px;
+        font-size: 14px;
+    }
+
+    .rights {
+        margin: 0;  
+        margin-bottom: 20px;
+    }
+
+    .workby {
+        margin: 0;  
+    }
+
+    .about-shop {
+        max-width: 300px;
+    }
+
+    /* .brands, .header, .head, .main, .season-2020, .collection-2018, .new-admission, .copyright {
+        display: none;
+    } */
+
+    .container-footer {
+        height: 555px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .categories, .link-form {
+        margin: 0;
+    }
+
+    .about-shop {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-shop h1 {
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+
+    .about-shop h1, .categories h1, .link-form h1 {
+        font-size: 22px;
+    }
+
+    .about-shop p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-header {
+        width: 260px;
+        height: 260px;
+    }
+
+    .main-header h1 {
+        font-size: 32px;
+    }
+
+    .main-header h2 {
+        font-size: 20px;
+    }
+
+    .description {
+        margin-top: 35px;
+    }
+
+    .new-collection h1, .description-text h1, .season, .admission, .container-1 h1 {
+        font-size: 30px;
+    }
+
+    .description-text p {
+        max-width: 380px;
+        font-size: 12px;
+    }
+
+    .copy-container {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-shop h1, .categories h1, .link-form h1 {
+        font-size: 20px;
+    }
+
+    .about-shop p, .link-form p {
+        font-size: 12px;
+    }
+
+    .button-clocks, .button-braclets, .button-belts {
+        font-size: 12px;
+    }
+
+    .subscribe {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .products-wrapper {
+      max-width: 100%;
+    }
+}
